@@ -1,87 +1,91 @@
 
 
 	body { 
-		    background-image:url(../imagenes/fondo2.jpg) }
+		    background-image:url(../imagenes/fondo2.jpeg) }
+
  <!--esto es lentes moriarti -- > 
   
-         header { width: 90%;
+         header { width:90%;
    	            float: left;
-   	            padding-left: 15%;
+   	            padding-left:10%;
                                      }
 
 	      header h1 { 
-	      	         color: #2F4F4F;
+	      	         color: #BC8F8F;
 	      	         letter-spacing: 20px;
 	      	         word-spacing: 10px;
 	      	         text-align: center;
 	              	   font-family: "new""bold";
 	      	         font-size: 89px;
-	      	         width:80%;
+	      	         width:75%;
 	      	         float: left;
 	      	         margin: 0;
 	      	         padding: 0;
-	      	         background-color: #B2D3C2;
+	      	         background-color: #FFFAFA;
 	      	                                     }
 
-	               legend {
-	      	    color: #2F4F4F;
-	      		 letter-spacing: 5px;
-             	 text-align: center;
-          	    font-family: "Courier New""bold"; 
-          	    font-size: 50px;
-          	    background-color: #CADEC8;
+	       legend {
+	      	        color: #BC8F8F;
+	      		     letter-spacing: 5px;
+             	     text-align: center;
+          	        font-family: "Courier New""bold"; 
+          	        font-size: 50px;
+          	        background-color: #FFFAFA;
           	                                            }
+         a      { text-decoration:none } 	                                            
 
-                   h2 { 
-          	            color: #2F4F4F;
+         fieldset {
+          	                  position: center;
+          	                  text-align: center;
+          	                  width:320px;
+                              height:485px;
+                              margin-left: 500px;
+                              margin-block: 125px;
+                              background-color: #BC8F8F; 
+                                  
+                                                           }
+         h2 { 
+          	            color: #FFFAFA;
           	            text-align: center;
                         font-family: "verdana""sans-serif";
                         font-weight: normal;
                         font-size: 30px;  
                                                          }
 
+
+      <!---esto es registrarme-->                                   
+
+               
                    a { 
           	           text-decoration:none; 
           	                                           }
 
-                  .resaltado {
-                            	color: #5f9ea0;
+                   .resaltado {
+                            	color: #FFFAFA;
                            	font-family: sans-serif;}
 
                    p {
           	          text-align: center;
-          	          background-color: #B2D3C2;
+          	          background-color: #BC8F8F;
+          	          font-family: "corrier new""bold";
+          	          font-size: 20px;
+          	          position: center;
           	          margin-left: 30%;
           	          margin-right: 30%;
-          	                       }
+          	                                    }
 
-                   main { 
-          	             background-color:#5f9ea0 ;
-          	             text-decoration: center;
-          	             text-align: center;
-                         font-family:sans-serif;
-                         font-size:15px }
-
-                  fieldset {
-          	                  position: center;
-          	                  text-align: center;
-          	                  width:320px;
-                              height:475px;
-                              margin-left: 500px;
-                              margin-block: 150px;
-                              background-color: #B2D3C2;                       }
 
                   h1 { 
                   	  position: center;
          	           font-family: "corrier new""bold";
          	           font-size: 50px;
          	           text-align: center;
-         	           background-color: #B2D3C2;
+         	           background-color: #FFFAFA;
          	           margin: 0;
          	           padding: 0;
          	           margin-left: 35%;
          	           margin-right: 35%;
-         	           color: #2F4F4F;
+         	           color: #BC8F8F;
          	           letter-spacing: 5px;}
 
                   main {
@@ -89,19 +93,16 @@
          	             font-size: 20px;
          	             text-align: center;
          	             margin-left: 500PX;
-         	              margin-block: 30px;
+         	             margin-block: 30px;
          	             width:320px;
-                         height:310px;
-                         background-color:#B2D3C2 ;}
+                         height:290px;
+                         background-color:#BC8F8F ;
+                                                     }
+
 
 
           <!-- estoeslentesdesol --! >
 
-                   p {
-                  	  position: center;
-         	           font-size: 20px;
-         	           text-align: center;
-         	           font-family: "corrier new""bold";}
 
 
          	       *{
@@ -140,21 +141,24 @@
                                            transition: .3s;
                                                              }
                    .mostrador .fila .item:hover {
-                                                 background-color: #B2D3C2;
+                                                 background-color: #BC8F8F;
                                                                               }
                    .mostrador .fila .item img {
                                                width: 100%;
-                                               margin: 60px 6;
+                                               margin: 65px 6;
                                                display: flex;
                                                                }
-                   .mostrador .fila .item .descripcion {
-                                                        color: #2F4F4F;
+                   .mostrador .fila .item .descripcion {background-color: #BC8F8F;
+                                                        color: #000000;
                                                         font-weight: bold;
+                                                        font-size: 20px;
 
                                                                               }
                    .mostrador .fila .item .precio { 
-                   	                              background-color: #B2D3C2;
+                   	                              background-color: #FFFAFA;
                                                    color: red;
                                                    font-weight: bold;
                                                    font-size: 20px;
                                                                      }
+
+       < !--esto es lente de receta-->
